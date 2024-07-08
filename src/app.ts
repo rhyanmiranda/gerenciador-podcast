@@ -6,7 +6,7 @@ import { Routes } from './routes/routes';
 
 export const app = async (req: http.IncomingMessage, res: http.ServerResponse) => {
   // query string
-    const [baseUrl, query] = req.url?.split("?") ?? ["",""]
+    const [baseUrl] = req.url?.split("?") ?? ["",""]
   
   // listar episódio
     if (req.method === HttpMethods.GET && baseUrl === Routes.LIST) {
