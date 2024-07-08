@@ -76,6 +76,8 @@ Faça uma requisição GET para:
 	}
 ]
    
+```
+
 ## Dependências
 - `@tsconfig/node20`: Configuração de TypeScript para Node.js 20.
 - `@types/node`: Tipos do Node.js para TypeScript.
